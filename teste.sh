@@ -1,5 +1,11 @@
 #!/bin/bash
 
+###########################################
+# Script diversos utilizando shell script #
+# Feito por Bruno Luís e Elias Costa      #
+###########################################
+
+
 #echo $# # número total de argumentos na chamada do comando
 
 #echo $* # Imprime todos os argumentos passados na chamada do comando(uma única string)
@@ -14,57 +20,7 @@
 #  echo -e "\033[31;1mTeste está Vazio \033[m"
 #fi
 
-function soma(){
-  echo "Digite o primeiro valor: "
-  read first
-  echo "Digite o segundo Valor: "
-  read second
-  echo "A soma dos dois valores é: $((first + second))"
-}
-
-function subtracao(){
-  echo "Digite o primeiro valor: "
-  read first
-  echo "Digite o segundo Valor: "
-  read second
-  echo "A subtração dos dois valores é: $((first + second))"
-}
-
-function multiplicacao(){
-  echo "Digite o primeiro valor: "
-  read first
-  echo "Digite o segundo Valor: "
-  read second
-  echo "A multiplicação dos dois valores é: $((first * second))"
-}
-
-function divisao(){
-  echo "Digite o primeiro valor: "
-  read first
-  echo "Digite o segundo Valor: "
-  read second
-  echo "A divisão dos dois valores é: $((first / second))"
-}
-#
-#
-#case $1 in
-#  soma)
-#    soma
-#  ;;
-#  subtracao)
-#    subtracao
-#  ;;
-#  multiplicacao)
-#    multiplicacao
-#  ;;
-#  divisao)
-#    divisao
-#  ;;
-#  *)
-#    echo -e "\033[31;1m Necessário digitar alguma função. Ex: soma\033[m"
-#  esac
-
-
+# Função que verifica se um valor está na sequencia de -1000 até 1000
 function seq_valor(){
   echo "Digite um valor: "
   read valor

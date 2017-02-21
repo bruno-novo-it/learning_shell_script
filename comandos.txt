@@ -1,1 +1,0 @@
-cat teste.txt | grep "%5@" | sed -e 's/^.*\% // ; s/orientador.*$// ; s/5//g ; s/\%//g ; s/\@//g' | tr /a-z/ /A-Z/
