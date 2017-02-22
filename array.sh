@@ -23,7 +23,7 @@ function print_array(){
     echo -e "Valor: $i"
   done
   # Mostra o Total de elementos
-  echo -e "\nTotal de Elementos: ${#array[@]}"
+  echo -e "\nTotal de Elementos Pares: ${#array[@]}"
 }
 
 popula_array
