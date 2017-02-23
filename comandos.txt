@@ -1,0 +1,1 @@
+cat arquivo_grande_pra_caramba.txt | grep "%5@" | sed -e 's/^.*\% // ; s/5 \@.*$// ; s/5//g ; s/\%//g ; s/\@//g' | tr /a-z/ /A-Z/
