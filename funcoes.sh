@@ -19,7 +19,7 @@ function subtracao(){
   read first
   echo "Digite o segundo Valor: "
   read second
-  echo "A subtração dos dois valores é: $((first + second))"
+  echo "A subtração dos dois valores é: $((first - second))"
 }
 
 function multiplicacao(){

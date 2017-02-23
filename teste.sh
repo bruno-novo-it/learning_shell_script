@@ -7,9 +7,9 @@
 
 
 #echo $# # número total de argumentos na chamada do comando
-
+#
 #echo $* # Imprime todos os argumentos passados na chamada do comando(uma única string)
-
+#
 #echo $@ # Imprime todos os argumentos passados na chamada do comando mas protegidos(várias strings)
 
 #TESTE=""
@@ -37,6 +37,8 @@ function seq_valor(){
 fi
   done
 }
+
+seq_valor
 
 #echo “Testando o comando seq”
 #  for i in $(seq 1 5 100);
