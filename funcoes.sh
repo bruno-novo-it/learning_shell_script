@@ -15,6 +15,9 @@ function soma(){
   echo "Digite o segundo Valor: "
   read second
   echo "A soma dos dois valores é: $((first + second))"
+  echo ""
+  read -p "Pressione enter para continuar"
+  clear
   Menu
 }
 
@@ -27,6 +30,9 @@ function subtracao(){
   echo "Digite o segundo Valor: "
   read second
   echo "A subtração dos dois valores é: $((first - second))"
+  echo ""
+  read -p "Pressione enter para continuar"
+  clear
   Menu
 }
 
@@ -39,6 +45,9 @@ function multiplicacao(){
   echo "Digite o segundo Valor: "
   read second
   echo "A multiplicação dos dois valores é: $((first * second))"
+  echo ""
+  read -p "Pressione enter para continuar"
+  clear
   Menu
 }
 
@@ -51,5 +60,8 @@ function divisao(){
   echo "Digite o segundo Valor: "
   read second
   echo "A divisão dos dois valores é: $((first / second))"
+  echo ""
+  read -p "Pressione enter para continuar"
+  clear
   Menu
 }
